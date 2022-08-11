@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100&display=swap');
+* {
+    --violet: hsl(257, 40%, 49%);
+    --soft-magenta: hsl(300, 69%, 71%);
+    --white: #fff;
+}
+
+body {
+    background-image: url("/images/bg-desktop.svg");
+    background-color: var(--violet);
+}
+
+main {
+    margin: auto;
+    width: 94%;
+}
+
+#logo {
+    padding-top: 25px;
+    max-height: 44px;
+    max-width: 250px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#img-principal {
+    float: left;
+    margin-right: 60px;
+    display: block;
+}
+
+#main-config {
+    color: var(--white);
+}
+
+#title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding-right: 110px;
+}
+
+#description {
+    font-family: 'Poppins', sans-serif;
+    font-size: 9px;
+    padding-right: 90px;
+}
+
+#btn {
+    font-size: 15px;
+    color: var(--violet);
+    background-color: var(--white);
+    border: none;
+    cursor: pointer;
+    height: 47px;
+    width: 170px;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+
+#icons-social {
+    color: #fff;
+    float: right;
+    justify-content: space-between;
+}
